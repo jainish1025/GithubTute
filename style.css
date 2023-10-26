@@ -1,0 +1,42 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: xyz;
+ }
+
+ html,
+ body {
+     Width: 100%;
+     Height: 100%;
+ }
+
+ #main {
+     width: 100%;
+     height: 100vh;
+     overflow: hidden;
+     position: relative;
+ }
+
+
+ #main>h1 {
+     position: absolute;
+     top: 70%;
+     left: 25%;
+     transform: translate(-50%, -50%);
+     font-family: "Roboto";
+     font-size: 4vw;
+     color: transparent;
+     text-transform: uppercase;
+     font-family: cursive;
+     -webkit-text-stroke: 2px white;
+     font-weight: 900;
+
+ }
+
+ #main>img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+
+ }
